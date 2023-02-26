@@ -5,9 +5,6 @@
 
 - [x] Display User Data for RedTeapotDating
   - [x] Get the data from here: https://w1yeg.wiremockapi.cloud/users
-- [x] Selecting a school sould show additional information about the school
-  - [x] Display all SAT scores - including Math, Reading, and Writing.
-  - [x] Get the data from here: https://data.cityofnewyork.us/resource/f9bf-2cp4.json
   
 
 ### App Walkthough GIF
