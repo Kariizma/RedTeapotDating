@@ -25,7 +25,10 @@ Pulling API Data from the Hinge users API did not work
 
 My Solution was just to create a duplicate of the JSON data that you guys provided and move it to my own mock API
 
-
+Tried Two-Way Databinding for the Users Data through XML Views crashed the APP
+  - Im assuming it didnt work because of the fragment calling the data from the list before it was being retrieved from the API
+ 
+ My Solution was to just use the basic concepts of View binding and not use any of the advanced features Data binding provides.
 
 ### App Walkthough GIF
 
