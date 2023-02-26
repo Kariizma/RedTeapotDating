@@ -16,7 +16,7 @@
  
 ### Problems
 
-Pulling API Data from the hinge users api didnt work
+Pulling API Data from the Hinge users API did not work
 - if i pulled from the (http://) http://hinge-ue1-dev-cli-android-homework.s3-website-us-east-1.amazonaws.com/users
 - this error shows up: error: Failure: CLEARTEXT communication to hinge-ue1-dev-cli-android-homework.s3-website-us-east-1.amazonaws.com not permitted by network security policy
 
