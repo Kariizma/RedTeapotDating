@@ -63,7 +63,6 @@ class DatingFragment: Fragment() {
         binding = null
     }
 
-    @SuppressLint("SetTextI18n")
     private fun displayUsers(index: Int)
     {
         //name
