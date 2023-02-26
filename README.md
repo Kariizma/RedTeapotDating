@@ -9,7 +9,7 @@
 
 ### App Walkthough GIF
 
-<img src="https://i.imgur.com/36cSUOn.gif" width=250><br>
+<img src="" width=250><br>
 
 ## Open-source libraries used
 - [Retrofit 2](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java/Kotlin
