@@ -8,8 +8,8 @@
 - [x] Hide Viewgroup of User if User Data is not specified
 - [x] Next button retrieves the next User Data in the List
 - [x] When no more data is presented in the list
-       - [x] The user will be presented with a Toast notifying them of the lack of data
-       - [x] User will not be able to use the next button at the ending of the list.  
+- [x] The user will be presented with a Toast notifying them of the lack of data
+- [x] User will not be able to use the next button at the ending of the list.  
   
 
 ### App Walkthough GIF
