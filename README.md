@@ -14,7 +14,7 @@
 ### Android Architecture
  - Model View ViewModel (MVVM)
  
-### Problems i ran into
+### Problems
 
 ### App Walkthough GIF
 
