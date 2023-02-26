@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RedTeapot Dating</string>
+    <string name="gender">Gender</string>
+    <string name="next">next</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="school">School</string>
+    <string name="about">About</string>
+    <string name="no_users_left">No more Users available, please try again later</string>
+</resources>

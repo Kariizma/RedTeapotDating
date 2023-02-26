@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.redteapotdating.viewmodels.DatingViewModel" />
+        <variable
+            name="datingFragment"
+            type="com.example.redteapotdating.view.DatingFragment" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="?attr/textAppearanceHeadline3"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:text="Jim"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:id="@+id/image"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:scaleType="fitXY"
+                tools:src="@tools:sample/avatars"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id = "@+id/genderLayout"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gender"
+                    android:text="@string/gender"
+                    android:textAppearance="?attr/textAppearanceHeadline4"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:text="Gender" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/genderIdentity"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/material_on_background_emphasis_medium"
+                    tools:text="Male" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp"
+                android:id="@+id/aboutLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about"
+                    android:textAppearance="?attr/textAppearanceHeadline4"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/about"
+                    tools:text="About" />
+
+                <TextView
+                    android:id="@+id/AboutMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="@color/material_on_background_emphasis_medium"
+                    tools:text="i like turtelz :)" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/schoolLayout"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/school"
+                    android:layout_marginBottom="8dp"
+                    android:textAppearance="?attr/textAppearanceHeadline4"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/school"
+                    tools:text="School" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id = "@+id/schoolName"
+                    android:layout_marginBottom="8dp"
+                    tools:text="John Jay college"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="@color/material_on_background_emphasis_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp"
+                android:id="@+id/hobbiesLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hobbies"
+                    android:textAppearance="?attr/textAppearanceHeadline4"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/hobbies"
+                    tools:text="Hobbies" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hobbiesList"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/material_on_background_emphasis_medium"
+                    tools:text="Hobbies" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:text="@string/next"
+                tools:text="next">
+            </Button>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>
