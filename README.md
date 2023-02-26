@@ -23,6 +23,8 @@ Pulling API Data from the hinge users api didnt work
 - if i pulled from the (https://) https://hinge-ue1-dev-cli-android-homework.s3-website-us-east-1.amazonaws.com/users
 - the website data wouldnt load from my webbrowser and when i pull from the API it gives me a empty list
 
+My Solution was just to create a duplicate of the JSON data that you guys provided and move it to my own mock API
+
 
 
 ### App Walkthough GIF
