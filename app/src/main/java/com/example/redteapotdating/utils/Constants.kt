@@ -9,7 +9,7 @@ class Constants {
          *  - Data would not populate my users list
          *  - API call would just some 100000 ms error
          *  - needed to have another Data class of Users for a List of User for the Users data
-         *
+         *  
          *  if needed i can upload that code aswell so i can gets some good feedback and learn from it.
          *  If i had more time i would try to find a fix for this, sorry :(
          *
