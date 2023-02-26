@@ -26,7 +26,9 @@ class DatingViewModel: ViewModel() {
         getUsers()
     }
 
-
+    /**
+     * Gets [Users] information from the [RedTeapotDatingApiService] using Retrofit and Moshi Json Converter
+     */
     private fun getUsers() {
         viewModelScope.launch {
             Log.v("getUsers()", "Loading...")
@@ -40,6 +42,9 @@ class DatingViewModel: ViewModel() {
         }
     }
 
+    /**
+     * Increments the counter to get the next data from the Users list.
+     */
     fun incrementButton()
     {
         if(_counter.value!! < _users.value!!.size)

@@ -12,6 +12,9 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 
 class RetrofitInstance {
 
+    /**
+     * Basically a Singleton object (only gets called once)
+     */
     companion object {
 
         /**
@@ -23,6 +26,7 @@ class RetrofitInstance {
             .build()
 
         /**
+         * OkHttp Intercepts to monitor the API call, good for debugging
          * Building the retrofit object with the moshi converter
          */
 
@@ -39,6 +43,9 @@ class RetrofitInstance {
                 .build()
         }
 
+        /**
+         * A public Api that exposes the lazy-initialized Retrofit service
+         */
         val api by lazy {
             retrofit.create(RedTeapotDatingApiService::class.java)
         }

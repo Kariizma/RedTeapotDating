@@ -9,7 +9,11 @@ class Constants {
          *  - Data would not populate my users list
          *  - API call would just some 100000 ms error
          *  - needed to have another Data class of Users for a List of User for the Users data
-         *  
+         *  - tried to access with a http://
+         *      - error: Failure: CLEARTEXT communication to hinge-ue1-dev-cli-android-homework.s3-website-us-east-1.amazonaws.com not permitted by network security policy
+         *  - tried to access with a https://
+         *      - no response from the Data and when i put it into a web broswer i cant connect to the link
+         *
          *  if needed i can upload that code aswell so i can gets some good feedback and learn from it.
          *  If i had more time i would try to find a fix for this, sorry :(
          *

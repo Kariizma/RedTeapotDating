@@ -38,10 +38,12 @@ class DatingFragment: Fragment() {
         binding?.datingFragment = this
         binding?.lifecycleOwner = this
 
+        //observing livedata of the user list in the fragment
         viewModel.users.observe(viewLifecycleOwner){
             localList.addAll(it)
             displayUsers(0)
         }
+        //observing the livedata of the counter
         viewModel.counter.observe(viewLifecycleOwner) {
             if (it == localList.size && it != 0)
                 Toast.makeText(context, R.string.no_users_left, LENGTH_LONG).show()
@@ -87,9 +89,9 @@ class DatingFragment: Fragment() {
         if(localList.getOrNull(index)?.gender != null) {
             binding!!.genderLayout.visibility = View.VISIBLE
             if(localList.getOrNull(index)?.gender.equals("m"))
-                binding!!.genderIdentity.text = "Male"
+                binding!!.genderIdentity.text = R.string.male.toString()
             else
-                binding!!.genderIdentity.text = "Female"
+                binding!!.genderIdentity.text = R.string.female.toString()
         }
         else {
             binding!!.genderLayout.visibility = View.GONE
