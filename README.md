@@ -16,6 +16,15 @@
  
 ### Problems
 
+Pulling API Data from the hinge users api didnt work
+- if i pulled from the (http://) http://hinge-ue1-dev-cli-android-homework.s3-website-us-east-1.amazonaws.com/users
+- this error shows up: error: Failure: CLEARTEXT communication to hinge-ue1-dev-cli-android-homework.s3-website-us-east-1.amazonaws.com not permitted by network security policy
+
+- if i pulled from the (https://) https://hinge-ue1-dev-cli-android-homework.s3-website-us-east-1.amazonaws.com/users
+- the website data wouldnt load from my webbrowser and when i pull from the API it gives me a empty list
+
+
+
 ### App Walkthough GIF
 
 <img src="https://github.com/Kariizma/RedTeapotDating/blob/main/RedTeapotDating.gif" width=250><br>
