@@ -1,5 +1,6 @@
 package com.example.redteapotdating.view
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -62,6 +63,7 @@ class DatingFragment: Fragment() {
         binding = null
     }
 
+    @SuppressLint("SetTextI18n")
     private fun displayUsers(index: Int)
     {
         //name
@@ -89,9 +91,9 @@ class DatingFragment: Fragment() {
         if(localList.getOrNull(index)?.gender != null) {
             binding!!.genderLayout.visibility = View.VISIBLE
             if(localList.getOrNull(index)?.gender.equals("m"))
-                binding!!.genderIdentity.text = R.string.male.toString()
+                binding!!.genderIdentity.text = "Male"
             else
-                binding!!.genderIdentity.text = R.string.female.toString()
+                binding!!.genderIdentity.text = "Female"
         }
         else {
             binding!!.genderLayout.visibility = View.GONE
