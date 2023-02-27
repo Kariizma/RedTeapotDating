@@ -52,10 +52,6 @@ class DatingFragment: Fragment() {
                 displayUsers(it)
             Log.v("counter", it.toString())
         }
-
-        binding!!.button.setOnClickListener {
-            viewModel.incrementButton()
-        }
     }
 
     override fun onDestroyView() {
